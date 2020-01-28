@@ -1,102 +1,51 @@
 ---
 layout: post
-title: "Chalk sample post with all elements"
-description: "Have a look at all the predesigned elements you can use in Chalk."
-thumb_image: "documentation/sample-image.jpg"
-tags: [design, jekyll]
+title: "Sprint Review & Blog Move"
+description: "Review of my Jan. 20-26th learning sprint & information moving blog to github."
+tags: [update,blog,sprint-review]
 ---
+# Sprint Review & Blog Move
 
-Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
-Use the `highlight` tag to use the following code highlighting your preferred language:
+_A personal review of my previous week's learning sprint and the announcement of moving my blog from wordpress to here._
 
-{% highlight html %}
-<!-- This is a comment -->
-<div class="grid">
-  <h1>This is a heading</h1>
-  <p>
-    This is a paragraph text.
-  </p>
-</div>
-{% endhighlight %}
+## Moving Blog
 
-## Headings
+For about 4 months now I've been hosting my blog on wordpress to show my updates. That was absolutely fine. Tools were easy, posts had no issue. But I've found that increasingly individuals in the Cybersecurity world have been posting their guides and successes to github rather than to an external blog. So that's what I'll be doing; moving to github. 
 
-Chalk includes 3 headings by default:
+Over the next week or so I'll be moving posts from wordpress to github, so there will be slightly more activity than usual. Anyway, enough of that.
 
-## Heading first level
-### Heading second level
-#### Heading third level
+## Jan. 20-26 Learning Review
 
-{% highlight markdown %}
-## Heading first level
-### Heading second level
-#### Heading third level
-{% endhighlight %}
+Last week I had quite a few things to do. I was a bit worried about school starting getting in the way of some of my learning, but nonetheless I was confident I could do well. 
 
-## Lists
+Well....I didn't do great.
 
-Unordered list example:
-* Unordered list item 1
-* Unordered list item 2
-* Unordered list item 3
-* Unordered list item 4
+Most of the items I had planned simply never happened and it wasn't due to lack of time. My interests were all over the place and I ended up going down multiple rabbit holes of things I _wanted_ to learn rather than had scheduled. I'll explain in a second, but below is what I had planned versus what I accomplished:
 
-Ordered list example:
-1. Ordered list item 1
-2. Ordered list item 1
-3. Ordered list item 1
-4. Ordered list item 1
+My intended focuses:
 
-{% highlight markdown %}
-* Unordered list item 1
-* Unordered list item 2
+- [ ] Complete OverTheWire Bandit CTF.
+- [ ] Finish Developing a Logo for the Cyber Range
+- [ ] Try out the tool: Searchsploit
+- [x] Finish the Mastering Linux Security Hardening course
+- [x] Study how SSH Tunnels work
+- [ ] Finish the Kali Linux Revealed book
+- [ ] Finish a YouTube Series on Linux Administration
+- [ ] Start the Metasploit Unleashed course/book
+- [x] Start a Docker Course
+- [ ] Research MaaS (for work)
 
-1. Order list item 1
-2. Order list item 1
-{% endhighlight %}
+Repeating Activities include:
 
-## Emoji support :star:
+- [x] Cyber Defense Team Studying
+- [x] Web Developer Bootcamp
+- [ ] Apply for Jobs
 
-Emoji's can be used everywhere in :cat2: your markdown!
+Additional Non-Focused Activities:
 
-## Quotes
+- [ ] Update Passwords
+- [ ] SMTP & IMAP Setup in Virtual Lab
 
-A quote looks like this:
+So as you can see, I didn't do all too great on completing nearly any items. Most of my distractions actually were not my usual ones; like I said I went down a few rabbit holes. One of those holes was moving from Windows 10 Home to Windwos 10 Pro and setting up RDP. I was informed that it was simply not possible to move OSs like that without a complete reinstall. I had no desire to do that, so instead what I did was clever enough to get upgrade my system and play with RDP. And yes that is pretty much the only reason I had any desire to upgrade. While playing with RDP, I've been researching and experimenting with SSH Tunneling and RDP, but so far I've had no luck. On my Debian OS I can't install `xrdp` with my updated NVIDIA drivers  while on Windows I fiddled around with the SSH Server to no avail. 
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
-
-{% highlight markdown %}
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
-{% endhighlight %}
-
-## Media
-
-Images can be added with a default `<img>` tag.
-If you wish that an image can be enlarged on click use the image include tag. You can pass 3 variables:
-- `path`: Image to show in the blog post.
-- `path-detail`: Image to show when enlarging.
-- `alt`: Alt text for image in blog post.
-
-{% include image.html path="documentation/sample-image.jpg" path-detail="documentation/sample-image@2x.jpg" alt="Sample image" %}
-
-{% highlight liquid %}
-{% raw %}
-{% include image.html path="documentation/sample-image.jpg"
-                      path-detail="documentation/sample-image@2x.jpg"
-                      alt="Sample image" %}
-{% endraw %}
-{% endhighlight %}
-
-Videos can be added and are responsive by default (4x3 by default, 16x9 with extra class).
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="https://www.youtube.com/embed/vO7m8Hre72E?modestbranding=1&autohide=1&showinfo=0&controls=0" allowfullscreen></iframe>
-</div>
-
-{% highlight html %}
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe src="url-to-video" allowfullscreen></iframe>
-</div>
-{% endhighlight %}
+So most of my tasks were a bust, and therefore will be the focus of this week strongly. I will not fall down rabbit holes nor will I have any massive system upgrades to work on/with. I'm proud I got  to do some research on SSH Tunneling, finish my hardening course, and especially begin a Docker course. Hopefully this week I'll be able to be more productive and focused....with little homework.

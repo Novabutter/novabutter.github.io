@@ -1,11 +1,10 @@
 # Mandatory settings
 
-blog_theme: dark # Or use dark
+blog_theme: light # Or use dark
 name: Chalk
 paginate: 25
-url: https://novabutter.github.io
-title: Giovanni Licameli
-description: A hub of my blood, sweat, and code. Mostly the code.
+url: http://chalk.nielsenramon.com
+
 
 # Optional settings
 
@@ -87,5 +86,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 paginate_path: /posts/page/:num/
 permalink: posts/:slug
