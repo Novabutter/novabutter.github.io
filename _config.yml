@@ -13,6 +13,9 @@ description:      'Cyber Security specialist who is drawn to Wireless Penetratio
 url:              https://novabutter.github.io
 baseurl:          https://novabutter.github.io/
 
+url:              https://novabutter.github.io/
+baseurl:          https://novabutter.github.io/
+
 paginate:         5
 
 github:            https://www.github.com/novabutter
