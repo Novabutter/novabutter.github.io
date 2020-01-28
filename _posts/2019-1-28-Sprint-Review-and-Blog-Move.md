@@ -4,8 +4,6 @@ title: "Sprint Review & Blog Move"
 description: "Review of my Jan. 20-26th learning sprint & information moving blog to github."
 tags: [update,blog,sprint-review]
 ---
-# Sprint Review & Blog Move
-
 _A personal review of my previous week's learning sprint and the announcement of moving my blog from wordpress to here._
 
 ## Moving Blog
