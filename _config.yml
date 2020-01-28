@@ -1,10 +1,11 @@
 # Mandatory settings
 
-blog_theme: light # Or use dark
+blog_theme: dark # Or use dark
 name: Chalk
 paginate: 25
-url: http://chalk.nielsenramon.com
-
+url: https://novabutter.github.io
+title: Giovanni Licameli
+description: A hub of my blood, sweat, and code. Mostly the code.
 
 # Optional settings
 
