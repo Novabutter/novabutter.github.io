@@ -1,3 +1,7 @@
+layout: page
+title: "About"
+permalink: https://novabutter.github.io/about
+
 ## About
 
 Normally I do not find myself impressive in any way whatsoever. I do not claim to be an programming wizard, code novice, or even a rookie. Coding is not my forte.
