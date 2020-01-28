@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: falsee
+relative_permalinks: false
 
 # Setup
 title:            Hyde
