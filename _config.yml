@@ -86,5 +86,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 paginate_path: /posts/page/:num/
 permalink: posts/:slug
