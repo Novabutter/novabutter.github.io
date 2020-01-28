@@ -1,30 +1,19 @@
----
 layout: page
-title: About
----
+title: "About"
+permalink: https://novabutter.github.io/about
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## About
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Normally I do not find myself impressive in any way whatsoever. I do not claim to be an programming wizard, code novice, or even a rookie. Coding is not my forte.
 
-There are currently two themes built on Poole:
+With that said, finding an issue, documenting it, and correcting is quite satisfying. I do believe that with enough time I will be able to be at least a novice programmer, but my focus is not so much on creating projects or code. At heart, I am a penetration tester. A young, inexperienced, motivated, curious, and creative pen tester. Soon anyway. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Throughout the brief journey into my Cybersecurity field even so far, I have run into this thing called programming. More of my time is spent in frustartion that peace upon correction of my findings. I know few languages, but I understand the general format of them and can more or less understand what is happening in a given program. Even then, creating solutions via programming, finding bugs, etcetera is part of what I need to learn and become fair at. Along the way, my discoveries will be pushed and placed here.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## So far...
 
-## Setup
+So far I am beginning my journey. I do not have much but a structured outline on what I want to learn, a few resources, and school. However, I do have some links for you to follow my progress, plans, and accomplishments. Track my personal progress and see the projects I either plan to work on or am currently working with:
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+1. [Trello Board ("School of Giovanni/Board of Learning")](https://trello.com/b/6oD5SGbb)
+2. [LinkedIn](https://www.linkedin.com/in/glicameli/)
+3. [Null-Byte (Favorite Resource)](https://null-byte.wonderhowto.com/)
