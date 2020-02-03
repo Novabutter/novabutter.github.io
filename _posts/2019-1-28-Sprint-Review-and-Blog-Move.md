@@ -5,6 +5,15 @@ description: "My review of how my learning sprint went over the previous week."
 tags: [update,blog,sprint-review]
 ---
 
+_A personal review of my previous week's learning sprint and the announcement of moving my blog from wordpress to here._
+
+## Moving Blog
+
+For about 4 months now I've been hosting my blog on wordpress to show my updates. That was absolutely fine. Tools were easy, posts had no issue. But I've found that increasingly individuals in the Cybersecurity world have been posting their guides and successes to github rather than to an external blog. So that's what I'll be doing; moving to github. 
+
+Over the next week or so I'll be moving posts from wordpress to github, so there will be slightly more activity than usual. Anyway, enough of that.
+
+
 ## Jan. 20-26 Learning Review
 
 This last week I was quite productive in my efforts to learn, however I did not stay "on-track". I had many additional side projects for work which consumed a great amount of my time, but nonetheless I did learn. 
