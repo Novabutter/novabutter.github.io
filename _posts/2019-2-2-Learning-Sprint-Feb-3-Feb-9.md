@@ -18,7 +18,6 @@ My intended focuses:
 - [ ]  Complete OverTheWire Bandit CTF.
 - [ ]  Develop final iterations of Cyber Range Logo
 - [ ]  Finish the Kali Linux Revealed book
-- [ ]  Start Metasploit Unleashed book
 - [ ]  Finish a YouTube Series on Linux Administration
 - [ ]  Start the Metasploit Unleashed course/book
 - [ ]  Research MaaS (for work)
