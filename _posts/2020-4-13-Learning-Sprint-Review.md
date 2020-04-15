@@ -32,6 +32,10 @@ Additional Non-Focused Activities:
 - [ ]  Finish OpenVPN Autodeployment script
 - [ ]  Update github blog appearance. 
 
+<<<<<<< HEAD
 Okay I know it looks bad. I didn't do what I said I would with the times. Honestly most of my issue comes with oversleeping on the new COVID school schedule. I was able to finally finis that YouTube Series that has been sitting in my account playlist for a year now. I also applied for about 8+ jobs over the course of the past few weeks. Now last week while not on the list of things I wanted to accomplish, and impromptu opportunity arrived on my doorstep. You can check out my new tool called parition-resize on my github. It was a blast making it, but boy did I sink a several hours into it. So I am proud of all of these things.
+=======
+Okay I know it looks bad. I didn't do what I said I would with the times. Honestly most of my issue comes with oversleeping on the new COVID school schedule. I was able to finally finis that YouTube Series that has been sitting in my account playlist for a year now. I also applied for about 8+ jobs over the course of the past few weeks. Now last week while not on the list of things I wanted to accomplish, and impromptu opportunity arrived on my doorstep. You can check out my new tool called [partition-resize](https://github.com/Novabutter/partition-resize) on my github. It was a blast making it, but boy did I sink a several hours into it. So I am proud of all of these things.
+>>>>>>> master
 
 To improve this week, I am working on adjusting my sleeping schedule and utilizing the countdown timers I so much talk about. As an additional safety net, I'm going to allocate 1.5+ hours of "spare time" so if any distractions, random opportunities/curses, or otherwise pop-up, my plans won't be runied so I'll continue to be motivated. 
