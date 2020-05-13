@@ -8,7 +8,7 @@ _My weekly learning sprint plan. Course-week!_
 
 ## May 4 - May 10 Learning Sprint
 
-As always, this is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my [Trello Board](https://trello.com/b/6oD5SGbb/personal-board) which changes daily & is what my weeks are based off of. 
+As always, this is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my Trello Board which changes daily & is what my weeks are based off of. 
 
 The past few weeks I actually was decently distracted. Now, nearly rightfully so (being a bit burned out with the whole COVID epidemic), but nonetheless was not as productive as I had wanted to be. During this time I applied for jobs and focused on school, work, friends, and family. Now I am back at it this week hoping to lock-down my focus, graduate soon, and keep learning. Here is what I plan on realistically doing this week as I hone back in.
 

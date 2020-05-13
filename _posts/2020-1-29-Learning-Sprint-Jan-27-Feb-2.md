@@ -8,7 +8,7 @@ _My weekly learning sprint plan._
 
 ## Jan. 27 - Feb. 2 Learning Sprint
 
-This is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my [Trello Board](https://trello.com/b/6oD5SGbb/personal-board) which changes daily & is what my weeks are based off of. 
+This is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my Trello Board which changes daily & is what my weeks are based off of. 
 
 Last week I got very sidetracked with other projects. Part of my weakness is that once I start something I want to finish even if it obliterates my schedule. This week, I'll focus on even if I don't get things done, I'll have to move on as well as make sure not additional projects outside this list are completed that aren't required. So what I'll be focusing on this week includes mostly preparation for the upcoming CCDC competition on February 15th. I'm the Linux DNS Specialist, and I have to do a few more things before I feel prepared enough to go into competition. 
 

@@ -7,7 +7,7 @@ tags: [post,blog,learning-sprint]
 
 ## Feb. 10 - Feb 16 Learning Sprint
 
-This is a weekly learning sprint update. For a larger outlook on what I am doing to, check out my [Trello Board](https://trello.com/b/6oD5SGbb/personal-board) which changes daily & is what my weeks are based off of. 
+This is a weekly learning sprint update. For a larger outlook on what I am doing to, check out my Trello Board which changes daily & is what my weeks are based off of. 
 
 Last week I prioritized my tasks and started/finished what needed to be done. However the completion level of said tasks was rather low. This was all the fault of my own, but nonetheless I'm proud of my work. I started so many things last week that this week I should be able to officially complete these tasks. Most of them I am near done with or half-way through. 
 

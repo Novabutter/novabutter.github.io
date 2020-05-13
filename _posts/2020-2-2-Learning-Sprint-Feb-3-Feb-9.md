@@ -7,7 +7,7 @@ tags: [post,blog,learning-sprint]
 
 ## Feb. 3 - Feb 9 Learning Sprint
 
-This is a weekly learning sprint update. For a larger outlook on what I am doing to, check out my [Trello Board](https://trello.com/b/6oD5SGbb/personal-board) which changes daily & is what my weeks are based off of. 
+This is a weekly learning sprint update. For a larger outlook on what I am doing to, check out my Trello Board which changes daily & is what my weeks are based off of. 
 
 Last week I learned plenty, but only a few items. My time was well invested but poorly planned. I spent hours upon hours dedicating myself to a task's completion. While this completed the bigger tasks I suffered on total task completion. This week, I'll be setting a timer per activity to ensure that my time does not role over.
 

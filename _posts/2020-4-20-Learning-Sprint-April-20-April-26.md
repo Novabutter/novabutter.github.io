@@ -8,7 +8,7 @@ _My weekly learning sprint plan. Course-week!_
 
 ## Apr. 14 - Apr. 19 Learning Sprint
 
-This is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my [Trello Board](https://trello.com/b/6oD5SGbb/personal-board) which changes daily & is what my weeks are based off of. 
+This is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my Trello Board which changes daily & is what my weeks are based off of. 
 
 Last week I did quite well on my own being productive and attacking my intended focuses. This week I intend to be as motivated, however this week has less intended focuses. 
 
