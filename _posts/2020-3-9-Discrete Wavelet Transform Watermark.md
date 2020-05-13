@@ -11,7 +11,7 @@ This week I had an homework assignment in class that actually caught my attentio
 ## The Challenge
 My professor handed me a python script which broke apart a generic photo into four varying detailed photos in grayscale. 
 
-![Python program 4-Picture Output](../files/addingDiscreteWatermarks/addingDiscreteOrigOutput.png)
+![Python program 4-Picture Output](/files/addingDiscreteWatermarks/addingDiscreteOrigOutput.png)
 
 As you can see there are four differing types of detail in this image that have been broken apart. Approximation (original), Horizontal, Vertical, and Diagonal detail. What is happening is the image is being broken apart by an algorithm and displaying details of the photo based on draw position. What does this have to do with watermarks?
 
