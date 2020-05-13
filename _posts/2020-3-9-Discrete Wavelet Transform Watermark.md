@@ -144,7 +144,7 @@ Okay so let's break down what has been done quickly. A custom watermark photo ha
 
 All right then. We've not deleted any of the other code yet; just added new code. Let's run the program and see what we have.
 
-![Python program 8-Picture Output](../files/addingDiscreteWatermarks/addingDiscreteBothPhotoOutput.png)
+![Python program 8-Picture Output](/files/addingDiscreteWatermarks/addingDiscreteBothPhotoOutput.png)
 
 Bingo 2! We have made the detail for both images. While displaying them is optional, we can now can understand how the details are assigned in variables and see what they are supposed to look like. Fantastic. What's left?
 ## Replace & Rebuild
@@ -161,7 +161,7 @@ for i, a in enumerate([LL, LH, HL, HHn]):
 ```
 Commenting the previously added for loop and associated display code (because we no longer need it knowing how the values are assigned) and switching the original `HH` for `HHn`, we can display the diagonal image. This will display the image.
 
-![Python program 4-Picture Output](../files/addingDiscreteWatermarks/addingDiscreteSwap.png)
+![Python program 4-Picture Output](/files/addingDiscreteWatermarks/addingDiscreteSwap.png)
 
 Cool. We can see the image does display in the diagonal, but how do we rebuild the image? 
 
@@ -186,15 +186,15 @@ Adding that line and running the program created a new image. But it looks the s
 
 **Original**
 
-![Python program Original Picture](../files/addingDiscreteWatermarks/addingDiscreteOrigPhoto.png)
+![Python program Original Picture](/files/addingDiscreteWatermarks/addingDiscreteOrigPhoto.png)
 
 **Modified**
 
-![Python program Watermark Picture](../files/addingDiscreteWatermarks/addingDiscreteWatermarkPhoto.png)
+![Python program Watermark Picture](/files/addingDiscreteWatermarks/addingDiscreteWatermarkPhoto.png)
 
 Maybe a bit darker (ignoring the green)? That's about it. But, if we run the modified **finalImg.png** through the original program, we can see that there truly is a watermark!
 
-![Python program Watermarked Final Picture](../files/addingDiscreteWatermarks/addingDiscreteFinal.png)
+![Python program Watermarked Final Picture](/files/addingDiscreteWatermarks/addingDiscreteFinal.png)
 
 ## Conclusion
 

@@ -28,7 +28,7 @@ My intended focuses:
 Repeating Activities include:
 
 - [ ]  Continue Web Developer Bootcamp
-- [ ]  Continue [Introduction to Windows Exploit Development Course](https://github.com/connormcgarr/An-Intro-2-Win-ED) (courtesy of Connor McGarr)
+- [ ]  Continue Introduction to Windows Exploit Development Course (courtesy of Connor McGarr)
 - [ ]  Apply for Jobs
 
 Additional Non-Focused Activities:

@@ -22,7 +22,7 @@ Repeating Activities include:
 
 - [X]  Continue Web Developer Bootcamp
 - [ ]  Metasploit Unleashed course/book
-- [ ]  Continue [Introduction to Windows Exploit Development Course](https://github.com/connormcgarr/An-Intro-2-Win-ED) (courtesy of Connor McGarr)
+- [ ]  Continue Introduction to Windows Exploit Development Course (courtesy of Connor McGarr)
 - [X]  Apply for Jobs
 
 Additional Non-Focused Activities:
