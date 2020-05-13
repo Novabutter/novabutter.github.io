@@ -107,7 +107,7 @@ LL, (LH, HL, HH) = coeffs2
 
 Honest thoughts? What is pywt other than part of a library? **boir1.3**?? Is that assigning the value of a single variable repeatedly to 4 variables?? Something is up here. But when it doubt, turn to Google right?
 ## Reverse Understanding
-Well surely enough the first thing that comes up with the discrete wavelet transform in python via the [pywvelets docs](https://pywavelets.readthedocs.io/en/latest/ref/2d-dwt-and-idwt.html). Perfect. The `dwt2` function requires two inputs: data of some sort and a wavelet form. The one that appears in the above example looks like **boir1.3**. Well without fully understanding how the wavelet transform works, we can determine that this is a a specific formula of the discrete wavelet transform. Perfect. Well here's what we can piece together. 
+Well surely enough the first thing that comes up with the discrete wavelet transform in python via the pywvelets docs. Perfect. The `dwt2` function requires two inputs: data of some sort and a wavelet form. The one that appears in the above example looks like **boir1.3**. Well without fully understanding how the wavelet transform works, we can determine that this is a a specific formula of the discrete wavelet transform. Perfect. Well here's what we can piece together. 
 ```python
 original = pywt.data.camera()
 #############################
