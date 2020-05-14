@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Learning Sprint May 4 - May 10"
+title: "Learning Sprint May 13 - May 17"
 description: "A full list of what I plan to do this week for learning."
 tags: [post,blog,learning-sprint]
 ---
 _My weekly learning sprint plan._
 
-## May 4 - May 10 Learning
+## May 13 - May 17 Learning
 
 As always, this is a weekly learning sprint update. The purpose is to outline my goals and tasks of learning throughout the week. At the end of each weekly I will evaluate my completed and incomplete tasks hoping to identify and streamline my best working/learning habits. Additionally, those that read here can see what I’m up to and track my weekly progress. For a larger outlook on what I’m up to, check out my Trello Board which changes daily & is what my weeks are based off of. 
 
