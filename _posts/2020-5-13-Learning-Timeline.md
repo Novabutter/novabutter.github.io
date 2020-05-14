@@ -46,6 +46,7 @@ Some of my big-ticket items to achieve include the following:
 3. Start studying Windows Exploit Development
 4. Enhance my programming skills
 5. Make a portfolio and accompanying persona for myself.
+
 Now this timeline is subject to change when adding new items or me not currently having outlined any break (which I may need for a week or two here and there). However I am optimistic that I can use this outline as a nearly dedicated guide and calendar to follow over the coming months to achieve my goals. 
 
 My mentor [Connor McGarr](https://connormcgarr.github.io/) has been my inspiring fortress that despite my pessimisticallyAl pounding waves keeps me honest, humble, and ready to fight and challenges foolish enough to face me. While he doesn't always agree with my methodology in learning, he never judges me which I fear greatly. Always humble himself, always willing to teach as long as you put in the effort. Anyway, he continues to succeed in this field and for now I'm going to follow in his footsteps at my own pace (vastly different from his non-stop pace). I am going to be better than him one day, but I have to take steps for the time being at my own pace.
