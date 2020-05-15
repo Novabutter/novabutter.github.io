@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Giovanni Licameli</title>
+    <link>https://novabutter.github.io/tags/python/</link>
+    <description>Recent content in Python on Giovanni Licameli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://novabutter.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding Discrete Watermarks to Images</title>
+      <link>https://novabutter.github.io/blog/2020-3-9-discrete-wavelet-transform-watermark/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-3-9-discrete-wavelet-transform-watermark/</guid>
+      <description>This week I had an homework assignment in class that actually caught my attention. Here is why and how I went about accomplishing it.
+TL;DR: Check bottom of this post for the code I finished. Creates a watermark hidden in a picture using python discrete wavelet transforms.
+The Challenge My professor handed me a python script which broke apart a generic photo into four varying detailed photos in grayscale.
+As you can see there are four differing types of detail in this image that have been broken apart.</description>
+    </item>
+    
+  </channel>
+</rss>
