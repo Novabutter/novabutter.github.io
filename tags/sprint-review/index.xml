@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprint Review on My New Hugo Site</title>
+    <link>http://example.org/tags/sprint-review/</link>
+    <description>Recent content in Sprint Review on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/sprint-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sprint Review: May 4th - May 10th</title>
+      <link>http://example.org/blog/2020-5-12-learning-sprint-review/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-5-12-learning-sprint-review/</guid>
+      <description>May 4 - May 10 Learning Review Over the past week I was absolutely slammed with last minute work for my school projects as I approach graduation. Most of it was long essays that just took time and weren&amp;rsquo;t of any relating value. Some of them my professors assigned out of nowhere and they were due within less than 24 hours because they still had content to cover. Due to this fact (and a few more that are not school realted), I did not accomplish as much as I had hoped.</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: Apr. 20th - May 3rd</title>
+      <link>http://example.org/blog/2020-5-3-learning-sprint-review/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-5-3-learning-sprint-review/</guid>
+      <description>Apr. 20 - May 3 Learning Review This past few weeks (I missed the preview week review and post) I learned a small amount. I did accomplish a few things on my list, though not nearly as many as I had previously wanted. Most of my items were disappointingly long, but I did follow my time-constraint suggestions to the best of my ability which when I was working did help. Here is what I did over the past 2 weeks.</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: Apr. 14th - Apr. 19th</title>
+      <link>http://example.org/blog/2020-4-19-learning-sprint-review/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-4-19-learning-sprint-review/</guid>
+      <description>Apr. 14 - Apr. 19 Learning Review I did a fantastic amount of learning this week and was able to if not complete, work on nearly every single item I had intended to complete. I was able to learn some basics about Splunk, finish multiple Linux Basics series I have had stocked for a while, do some reading on articles and work on the courses I have been doing in parallel.</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: Mar. 30th - Apr. 12th</title>
+      <link>http://example.org/blog/2020-4-13-learning-sprint-review/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-4-13-learning-sprint-review/</guid>
+      <description>Mar. 30 - April 12 Learning Review Minus skipping a week, I did not get as much done as I had hoped. I got distracted with a few games, some actual awesome productivity, and homework. Despite this, I did finish a few things, which lately has been rather rare.
+My intended focuses:
+ Complete OverTheWire Bandit CTF. Light Splunk Learning Finish a YouTube Series on Linux Administration Start the Metasploit Unleashed course/book Finish SMTP &amp;amp; IMAP Lab Finish work on Cyber Range backup deployment server (for work)  Repeating Activities include:</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: Mar. 23rd - Mar. 29th</title>
+      <link>http://example.org/blog/2020-3-30-learning-sprint-review/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-3-30-learning-sprint-review/</guid>
+      <description>Mar. 23 - 29 Learning Review Last week I was moving around a lot from school to home. I got very little done in this list, but outside the list I finished plenty. I focused a lot on other work that needed to be done. Now I&amp;rsquo;ll be able to focus on these things going into next week.
+My intended focuses:
+ Complete OverTheWire Bandit CTF. Light Splunk Learning Finish a YouTube Series on Linux Administration Start the Metasploit Unleashed course/book Finish SMTP &amp;amp; IMAP Lab Finish work on Cyber Range backup deployment server (for work)  Repeating Activities include:</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: Feb. 3rd - Feb 9th</title>
+      <link>http://example.org/blog/2020-2-11-last-sprint-review/</link>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-2-11-last-sprint-review/</guid>
+      <description>Feb. 3 - 9 Learning Review Last week I was actually pretty light on homework. I focused on other things outside of the scope of my Trello learning as well as inside of it. Since the CCDC competition is this upcoming week (last week it was 2 weeks away) most of my focus was on learning security for my box. Thankfully, this was on my Trello board of things to do so some of it counted, but I still failed to organize enough to get a lot of things done.</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: Jan. 20th - Jan. 26th</title>
+      <link>http://example.org/blog/2020-2-2-last-sprint-review/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-2-2-last-sprint-review/</guid>
+      <description>Feb. 3 - Feb 9 Learning Review Last week I had quite a few things to do. I was a bit worried about school starting getting in the way of some of my learning, but nonetheless I was confident I could do well.
+Well&amp;hellip;.I didn&amp;rsquo;t do great.
+Most of the items I had planned simply never happened and it wasn&amp;rsquo;t due to lack of time. My interests were all over the place and I ended up going down multiple rabbit holes of things I wanted to learn rather than had scheduled.</description>
+    </item>
+    
+    <item>
+      <title>1st Sprint Review</title>
+      <link>http://example.org/blog/2020-1-28-sprint-review-and-blog-move/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/2020-1-28-sprint-review-and-blog-move/</guid>
+      <description>Moving Blog For about 4 months now I&amp;rsquo;ve been hosting my blog on wordpress to show my updates. That was absolutely fine. Tools were easy, posts had no issue. But I&amp;rsquo;ve found that increasingly individuals in the Cybersecurity world have been posting their guides and successes to github rather than to an external blog. So that&amp;rsquo;s what I&amp;rsquo;ll be doing; moving to github.
+Over the next week or so I&amp;rsquo;ll be moving posts from wordpress to github, so there will be slightly more activity than usual.</description>
+    </item>
+    
+  </channel>
+</rss>

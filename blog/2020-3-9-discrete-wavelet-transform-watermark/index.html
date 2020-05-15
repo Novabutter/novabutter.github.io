@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Adding Discrete Watermarks to Images - My New Hugo Site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="Adding Discrete Watermarks to Images">
+<meta itemprop="description" content="An interesting assignment...">
+<meta itemprop="datePublished" content="2020-03-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1769">
+<meta itemprop="image" content="http://example.org/files/addingDiscreteWatermarks/addingDiscreteFinal.png">
+
+
+
+<meta itemprop="keywords" content="Programming,Python,Forensics," /><meta property="og:title" content="Adding Discrete Watermarks to Images" />
+<meta property="og:description" content="An interesting assignment..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/2020-3-9-discrete-wavelet-transform-watermark/" />
+<meta property="og:image" content="http://example.org/files/addingDiscreteWatermarks/addingDiscreteFinal.png" />
+<meta property="article:published_time" content="2020-03-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-09T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/files/addingDiscreteWatermarks/addingDiscreteFinal.png"/>
+
+<meta name="twitter:title" content="Adding Discrete Watermarks to Images"/>
+<meta name="twitter:description" content="An interesting assignment..."/>
+
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+      
+      
+    </menu>
+    
+    
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  
+  <header>
+    
+  </header>
+  <main>
+    
+  </main>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/2020-3-9-discrete-wavelet-transform-watermark/">Adding Discrete Watermarks to Images</a></h2>
+    
+    
+      <p>An interesting assignment...</p>
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2020-03-09 00:00:00 &#43;0000 UTC">
+      March 9, 2020
+    </time>
+    <span class="author">Giovanni Licameli</span>
+    
+  </div>
+</header>
+
+  <section id="socnet-share">
+    
+
+
+
+
+
+  </section>
+  
+  <a href="/blog/2020-3-9-discrete-wavelet-transform-watermark/" class="image featured">
+    
+      <img src="/files/addingDiscreteWatermarks/addingDiscreteFinal.png" alt="">
+    
+  </a>
+
+
+  <div class="content">
+    <p>This week I had an homework assignment in class that actually caught my attention. Here is why and how I went about accomplishing it.</p>
+<p><strong>TL;DR:</strong> Check bottom of this post for the code I finished. Creates a watermark hidden in a picture using python discrete wavelet transforms.</p>
+<h2 id="the-challenge">The Challenge</h2>
+<p>My professor handed me a python script which broke apart a generic photo into four varying detailed photos in grayscale.</p>
+<p><img src="/files/addingDiscreteWatermarks/addingDiscreteOrigOutput.png" alt="Python program 4-Picture Output"></p>
+<p>As you can see there are four differing types of detail in this image that have been broken apart. Approximation (original), Horizontal, Vertical, and Diagonal detail. What is happening is the image is being broken apart by an algorithm and displaying details of the photo based on draw position. What does this have to do with watermarks?</p>
+<p><strong>Task:</strong> Replace the diagonal detail of this image with the diagonal detail of another image, then rebuild it. This will create a sort of discrete watermark that can really only be seen by breaking the image apart in the same fashion.</p>
+<h2 id="poking-around">Poking Around..</h2>
+<p>Well I have literally not a clue what to do. I know some basic python and could probably fiddle my way around with a lot of the built-in libraries, however I still do not know a lot of it. But first thing is first—let&rsquo;s investigate the code.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt
+
+<span style="color:#f92672">import</span> pywt
+<span style="color:#f92672">import</span> pywt.data
+
+
+<span style="color:#75715e"># Load image</span>
+original <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>camera()
+<span style="color:#75715e">#original = plt.imread(&#34;MySig.jpg&#34;)[600:1111,600:1111,1]</span>
+plt<span style="color:#f92672">.</span>figure()
+plt<span style="color:#f92672">.</span>imshow(original, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+
+<span style="color:#75715e"># Wavelet transform of image, and plot approximation and details</span>
+titles <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Approximation&#39;</span>, <span style="color:#e6db74">&#39; Horizontal detail&#39;</span>,
+          <span style="color:#e6db74">&#39;Vertical detail&#39;</span>, <span style="color:#e6db74">&#39;Diagonal detail&#39;</span>]
+coeffs2 <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(original, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LL, (LH, HL, HH) <span style="color:#f92672">=</span> coeffs2
+fig <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">3</span>))
+<span style="color:#66d9ef">for</span> i, a <span style="color:#f92672">in</span> enumerate([LL, LH, HL, HH]):
+    ax <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+    ax<span style="color:#f92672">.</span>imshow(a, interpolation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nearest&#34;</span>, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+    ax<span style="color:#f92672">.</span>set_title(titles[i], fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>)
+    ax<span style="color:#f92672">.</span>set_xticks([])
+    ax<span style="color:#f92672">.</span>set_yticks([])
+
+fig<span style="color:#f92672">.</span>tight_layout()
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div><p>Do I know what any of this means? Of course not. I see a <code>for</code> loop, an array with the titles of the pictures, and a few imported libraries I am not familiar with. That&rsquo;s about it.</p>
+<p>My first tactic is just to comment and uncomment to see what I break. To be clear, this is not an efficient method of reverse engineering, but because the block of code is small it&rsquo;s feasible. After playing around for a minute, I insert my own comments into the code after I figure out what certain lines do. And here, we can update the original code with my new comments.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## LIBRARIES</span>
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt
+
+<span style="color:#f92672">import</span> pywt
+<span style="color:#f92672">import</span> pywt.data
+
+
+<span style="color:#75715e">## LOADS SOME PYTHON DEFAULT IMAGE AND A COMMENTED IMAGE IN THE CURRENT DIRECTORY</span>
+original <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>camera()
+<span style="color:#75715e">#original = plt.imread(&#34;MySig.jpg&#34;)[600:1111,600:1111,1]</span>
+<span style="color:#75715e">## OPTIONAL DISPLAY OF ORIGINAL IN GRAPH</span>
+plt<span style="color:#f92672">.</span>figure()
+plt<span style="color:#f92672">.</span>imshow(original, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+
+
+titles <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Approximation&#39;</span>, <span style="color:#e6db74">&#39; Horizontal detail&#39;</span>,
+          <span style="color:#e6db74">&#39;Vertical detail&#39;</span>, <span style="color:#e6db74">&#39;Diagonal detail&#39;</span>]
+
+<span style="color:#75715e">## PYWT??? ASSIGNED VARIABLE THAT SPLITS APART IMAGE</span>
+coeffs2 <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(original, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LL, (LH, HL, HH) <span style="color:#f92672">=</span> coeffs2
+
+<span style="color:#75715e">## FOR LOOP AND DISPLAY INFORMATION FOR ALL FOUR IMAGES</span>
+fig <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">3</span>))
+<span style="color:#66d9ef">for</span> i, a <span style="color:#f92672">in</span> enumerate([LL, LH, HL, HH]):
+    ax <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+    ax<span style="color:#f92672">.</span>imshow(a, interpolation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nearest&#34;</span>, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+    ax<span style="color:#f92672">.</span>set_title(titles[i], fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>)
+    ax<span style="color:#f92672">.</span>set_xticks([])
+    ax<span style="color:#f92672">.</span>set_yticks([])
+
+fig<span style="color:#f92672">.</span>tight_layout()
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div><h2 id="creating-more-images">Creating More Images</h2>
+<p>At this point, I still have plenty of questions, but from the looks of it I have at least isolated the important lines from the lesser. Now I have to keep in mind my goal: replace diagonal image 4 with my own, then rebuild.</p>
+<p>For now, that means the display information is fine however I can mostly ignore it; it&rsquo;s mostly for debugging. What immediately draws my attention is the set of four variables <code>LL, LH, HL, HH</code>. Without knowing any of the backend, I can safely assume that this relates to the four images. This also means that reading through the for loop I can assume the line <code>ax.imshow(a, interpolation=&quot;nearest&quot;, cmap=plt.cm.gray</code> means show the image of the position in the incrementing array. That long with the <code>title</code> array line must be display info.</p>
+<p>All right. We only have one or two lines that must be responsible for breaking up the image.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## PYWT??? ASSIGNED VARIABLE THAT SPLITS APART IMAGE</span>
+coeffs2 <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(original, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LL, (LH, HL, HH) <span style="color:#f92672">=</span> coeffs2
+</code></pre></div><p>Honest thoughts? What is pywt other than part of a library? <strong>boir1.3</strong>?? Is that assigning the value of a single variable repeatedly to 4 variables?? Something is up here. But when it doubt, turn to Google right?</p>
+<h2 id="reverse-understanding">Reverse Understanding</h2>
+<p>Well surely enough the first thing that comes up with the discrete wavelet transform in python via the pywvelets docs. Perfect. The <code>dwt2</code> function requires two inputs: data of some sort and a wavelet form. The one that appears in the above example looks like <strong>boir1.3</strong>. Well without fully understanding how the wavelet transform works, we can determine that this is a a specific formula of the discrete wavelet transform. Perfect. Well here&rsquo;s what we can piece together.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">original <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>camera()
+<span style="color:#75715e">#############################</span>
+coeffs2 <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(original, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LL, (LH, HL, HH) <span style="color:#f92672">=</span> coeffs2
+</code></pre></div><p>Looks like the original photo is broken up by the <code>pywt.dwt2</code> function and assigned to <code>coeffs2</code>. Then the data generated (in an array format as a tuple) is assigned to separate variables. There is the approximation, horizontal detail, vertical detail, and diagonal detail coefficients. Bingo! We have the data for photo now.</p>
+<p>If the goal is to replace the diagonal portion of the photo with my own, then I need my own photo to go through this same process. Well I noticed a commented line with photo file importation earlier, so I&rsquo;ll uncomment that and add a photo.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">### IMPORT OF NEW INTENDED WATERMARK</span>
+watermark <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;XP.jpg&#34;</span>)[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1111</span>,<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1111</span>,<span style="color:#ae81ff">1</span>] 
+<span style="color:#75715e">#   Changed 600:1111 -&gt; 0:1111</span>
+<span style="color:#75715e">### WAVELET TRANSFORM AND FIGURE CREATION</span>
+coeffsNew <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(watermark, <span style="color:#e6db74">&#39;bior1.3&#39;</span>) <span style="color:#75715e"># Watermark coeffs data</span>
+LLn, (LHn, HLn, HHn) <span style="color:#f92672">=</span> coeffsNew <span style="color:#75715e"># New (n) data in tuples</span>
+figNew <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">12</span>,<span style="color:#ae81ff">3</span>))
+<span style="color:#75715e">### LOOP FIGURE TO DISPLAY</span>
+<span style="color:#66d9ef">for</span> i, a <span style="color:#f92672">in</span> enumerate([LLn, LHn, HLn, HHn]):
+    ax <span style="color:#f92672">=</span> figNew<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+    ax<span style="color:#f92672">.</span>imshow(a, interpolation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nearest&#34;</span>, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+    ax<span style="color:#f92672">.</span>set_title(titles[i], fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>)
+    ax<span style="color:#f92672">.</span>set_xticks([])
+    ax<span style="color:#f92672">.</span>set_yticks([])
+<span style="color:#75715e">### DISPLAY STUFF FOR LOOP</span>
+figNew<span style="color:#f92672">.</span>tight_layout()
+</code></pre></div><p><em>Note: the watermark photo is 512x512 to avoid data errors in calculation later.</em></p>
+<p>Okay so let&rsquo;s break down what has been done quickly. A custom watermark photo has been added (notice the changes from the original commented line). Next we basically <strong>copied</strong> the original code with <em>new</em> changes. These include the following:
+<code>coeffs2</code> -&gt; <code>coeffsNew</code> | To hold new calculated coefficients
+<code>fig</code> -&gt; <code>figNew</code> | For new display figure
+<code>LL...</code> -&gt; <code>LLn...</code> | For new values from my watermark</p>
+<p>All right then. We&rsquo;ve not deleted any of the other code yet; just added new code. Let&rsquo;s run the program and see what we have.</p>
+<p><img src="/files/addingDiscreteWatermarks/addingDiscreteBothPhotoOutput.png" alt="Python program 8-Picture Output"></p>
+<p>Bingo 2! We have made the detail for both images. While displaying them is optional, we can now can understand how the details are assigned in variables and see what they are supposed to look like. Fantastic. What&rsquo;s left?</p>
+<h2 id="replace--rebuild">Replace &amp; Rebuild</h2>
+<p>Well honestly, now that we understand the values and have nearly reverse engineered the program, all that is left is to overwrite the last diagonal of the watermark with the original. Then export.</p>
+<p>Looking at the code and documentation, this was a pretty easy change.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i, a <span style="color:#f92672">in</span> enumerate([LL, LH, HL, HHn]):
+    ax <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+    ax<span style="color:#f92672">.</span>imshow(a, interpolation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nearest&#34;</span>, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+    ax<span style="color:#f92672">.</span>set_title(titles[i], fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>)
+    ax<span style="color:#f92672">.</span>set_xticks([])
+    ax<span style="color:#f92672">.</span>set_yticks([])
+</code></pre></div><p>Commenting the previously added for loop and associated display code (because we no longer need it knowing how the values are assigned) and switching the original <code>HH</code> for <code>HHn</code>, we can display the diagonal image. This will display the image.</p>
+<p><img src="/files/addingDiscreteWatermarks/addingDiscreteSwap.png" alt="Python program 4-Picture Output"></p>
+<p>Cool. We can see the image does display in the diagonal, but how do we rebuild the image?</p>
+<p>Honestly I had no idea. I first went about changing the <code>coeffs</code> to something new entirely and re-running the <code>dwt2</code> operation. Most of the time this kept erroring out. The second idea I had was to simply put the coefficient details displayed in the reverse order. Not my best idea, but I was quite lost.</p>
+<p>So I went back to the pywavelet docs and found a function called <strong>Inverse Discrete Wavelet Transform</strong> (<code>idwt2</code>). This is extremely similar to the original, but is&hellip;.the inverse. Maybe that rebuilds the photo?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">finalImg <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>idwt2(LL, LH, HL, HHn, bior1<span style="color:#f92672">.</span><span style="color:#ae81ff">3</span>)
+</code></pre></div><p>Trying this by manually throwing in the modified coefficient variables kept erroring out as well. I really felt like I was on the right track; but why? To troubleshoot, I printed <code>coeffs2</code> and my own <code>coeffsNew</code>. Turns out, this is an array of arrays (tuples), and the <code>idwt2</code> function was not liking me sending 5 values to the method. Rather, it was looking for a single array of values and then the wavelet type. Oh okay. Let&rsquo;s try that.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">finalImg <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>idwt2((LL, (LH, HL, HHn)), bior1<span style="color:#f92672">.</span><span style="color:#ae81ff">3</span>)
+</code></pre></div><p>No errors. Also no display other than the original. I must have done something right at this point, but I still need to save and check the image (or at least display the new image by breaking it apart). This can be done with the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">plt<span style="color:#f92672">.</span>imsave(<span style="color:#e6db74">&#39;finalImg.png&#39;</span>, finalImg)
+</code></pre></div><h2 id="andbutter">And&hellip;..butter.</h2>
+<p>Adding that line and running the program created a new image. But it looks the same as the original&hellip;nearly.</p>
+<p><strong>Original</strong></p>
+<p><img src="/files/addingDiscreteWatermarks/addingDiscreteOrigPhoto.png" alt="Python program Original Picture"></p>
+<p><strong>Modified</strong></p>
+<p><img src="/files/addingDiscreteWatermarks/addingDiscreteWatermarkPhoto.png" alt="Python program Watermark Picture"></p>
+<p>Maybe a bit darker (ignoring the green)? That&rsquo;s about it. But, if we run the modified <strong>finalImg.png</strong> through the original program, we can see that there truly is a watermark!</p>
+<p><img src="/files/addingDiscreteWatermarks/addingDiscreteFinal.png" alt="Python program Watermarked Final Picture"></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This was a unique challenge that I wasn&rsquo;t expecting to get from class. I had a lot of fun reverse engineering the code that I did not know about. While I didn&rsquo;t learn as much about actually how wavelet transforms truly work, I was able to hobble around into a solution. What I was most excited about was that I re-designed (even if it was simple) a practical program that theoretically could be used in copyright claims for photos.</p>
+<p>Here&rsquo;s the final code if you were following along.</p>
+<p><strong>Code</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt
+
+<span style="color:#f92672">import</span> pywt
+<span style="color:#f92672">import</span> pywt.data
+
+
+<span style="color:#75715e"># Load image</span>
+original <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>camera()
+newImg <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;XP.jpg&#34;</span>)[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1111</span>,<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1111</span>,<span style="color:#ae81ff">1</span>]
+<span style="color:#75715e"># DISPLAY INFO</span>
+<span style="color:#75715e">#plt.figure()</span>
+<span style="color:#75715e">#plt.imshow(original, cmap=plt.cm.gray)</span>
+
+<span style="color:#75715e"># Wavelet transform of image, and plot approximation and details</span>
+titles <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Approximation&#39;</span>, <span style="color:#e6db74">&#39; Horizontal detail&#39;</span>,
+          <span style="color:#e6db74">&#39;Vertical detail&#39;</span>, <span style="color:#e6db74">&#39;Diagonal detail&#39;</span>]
+
+coeffs2 <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(original, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LL, (LH, HL, HH) <span style="color:#f92672">=</span> coeffs2
+
+
+<span style="color:#75715e"># MY ADDITIONS</span>
+coeffsNew <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(newImg, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LLn, (LHn, HLn, HHn) <span style="color:#f92672">=</span> coeffsNew
+finalImg <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>idwt2((LL, (LH, HL, HHn)), <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+
+<span style="color:#75715e"># SAVE IMAGE</span>
+plt<span style="color:#f92672">.</span>imsave(<span style="color:#e6db74">&#39;finalImg.png&#39;</span>, finalImg)
+<span style="color:#75715e"># DISPLAY INFO</span>
+<span style="color:#75715e">#fig.tight_layout()</span>
+<span style="color:#75715e">#plt.show()</span>
+
+<span style="color:#75715e">## TEST TO SHOW CHANGE AUTOMATICALLY</span>
+testImg <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;finalImg.png&#34;</span>)[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1111</span>,<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1111</span>,<span style="color:#ae81ff">1</span>]
+coeffs3 <span style="color:#f92672">=</span> pywt<span style="color:#f92672">.</span>dwt2(testImg, <span style="color:#e6db74">&#39;bior1.3&#39;</span>)
+LLt, (LHt, HLt, HHt) <span style="color:#f92672">=</span> coeffs3
+fig <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">3</span>))
+
+
+
+<span style="color:#66d9ef">for</span> i, a <span style="color:#f92672">in</span> enumerate([LLt, LHt, HLt, HHt]):
+    ax <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+    ax<span style="color:#f92672">.</span>imshow(a, interpolation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nearest&#34;</span>, cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>gray)
+    ax<span style="color:#f92672">.</span>set_title(titles[i], fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>)
+    ax<span style="color:#f92672">.</span>set_xticks([])
+    ax<span style="color:#f92672">.</span>set_yticks([])
+
+fig<span style="color:#f92672">.</span>tight_layout()
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div>
+  </div>
+  <footer>
+    <ul class="stats">
+  
+    
+    
+      <li class="categories">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="http://example.org/categories/programming">Programming</a></li>
+          
+        </ul>
+      </li>
+    
+  
+  
+    
+    
+      <li class="tags">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="http://example.org/tags/programming">Programming</a></li>
+          
+            
+            <li><a class="article-category-link" href="http://example.org/tags/python">Python</a></li>
+          
+            
+            <li><a class="article-category-link" href="http://example.org/tags/forensics">Forensics</a></li>
+          
+        </ul>
+      </li>
+    
+  
+</ul>
+
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/blog/2020-2-11-learning-sprint-feb-10-feb-16/" class="button"><div class="previous"><div>Learning Sprint: Feb. 10 - Feb. 16</div></div></a>
+  
+  
+    <a href="/blog/2020-3-23-learning-sprint-mar-23-mar-29/" class="button"><div class="next"><div>Learning Sprint: Mar. 23 - Mar. 29</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+  
+  <p class="copyright">
+    
+      &copy; 2020
+      
+        My New Hugo Site
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.68.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+    </div>
+  </body>
+</html>
