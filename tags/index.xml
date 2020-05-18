@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Giovanni Licameli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://novabutter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Sprint</title>
+      <link>https://novabutter.github.io/tags/learning-sprint/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/learning-sprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://novabutter.github.io/tags/personal/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>https://novabutter.github.io/tags/update/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sprint Review</title>
+      <link>https://novabutter.github.io/tags/sprint-review/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/sprint-review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Graduate</title>
@@ -17,15 +53,6 @@
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://novabutter.github.io/tags/graduate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Sprint</title>
-      <link>https://novabutter.github.io/tags/learning-sprint/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/tags/learning-sprint/</guid>
       <description></description>
     </item>
     
@@ -39,38 +66,11 @@
     </item>
     
     <item>
-      <title>Personal</title>
-      <link>https://novabutter.github.io/tags/personal/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Plans</title>
       <link>https://novabutter.github.io/tags/plans/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://novabutter.github.io/tags/plans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Update</title>
-      <link>https://novabutter.github.io/tags/update/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/tags/update/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sprint Review</title>
-      <link>https://novabutter.github.io/tags/sprint-review/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/tags/sprint-review/</guid>
       <description></description>
     </item>
     
