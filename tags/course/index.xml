@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course on Giovanni Licameli</title>
+    <link>https://novabutter.github.io/tags/course/</link>
+    <description>Recent content in Course on Giovanni Licameli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://novabutter.github.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Exploit Development: Vanilla Buffer Overflow</title>
+      <link>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</guid>
+      <description>Prologue Exploit Development is an art that only a select few venture to explore. So many of us run the script and watch it fail only to sit back and think well that didn&amp;rsquo;t work. Oh well. It takes enormous amounts of time, knowledge, and Googling while testing, failing, and failing a thousand more times until finally something happens. It&amp;rsquo;s these individuals that frighten the world; that have the motivation to press onward into nearly always unfamiliar territory to find vulnerabilities in applications for the good or bad.</description>
+    </item>
+    
+  </channel>
+</rss>
