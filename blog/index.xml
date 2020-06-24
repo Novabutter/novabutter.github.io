@@ -13,15 +13,6 @@
     
     <item>
       <title>Windows Exploit Development: Vanilla Buffer Overflow</title>
-      <link>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow-copy/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow-copy/</guid>
-      <description>Prologue Exploit Development is an art that only a select few venture to explore. So many of us run the script and watch it fail only to sit back and think well that didn&amp;rsquo;t work. Oh well. It takes enormous amounts of time, knowledge, and Googling while testing, failing, and failing a thousand more times until finally something happens. It&amp;rsquo;s these individuals that frighten the world; that have the motivation to press onward into nearly always unfamiliar territory to find vulnerabilities in applications for the good or bad.</description>
-    </item>
-    
-    <item>
-      <title>Windows Exploit Development: Vanilla Buffer Overflow</title>
       <link>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
