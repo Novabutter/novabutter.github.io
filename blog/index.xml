@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Giovanni Licameli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://novabutter.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows Exploit Development: Vanilla Buffer Overflow</title>
+      <link>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</guid>
+      <description>Prologue Exploit Development is an art that only a select few venture to explore. So many of us run the script and watch it fail only to sit back and think well that didn&amp;rsquo;t work. Oh well. It takes enormous amounts of time, knowledge, and Googling while testing, failing, and failing a thousand more times until finally something happens. It&amp;rsquo;s these individuals that frighten the world; that have the motivation to press onward into nearly always unfamiliar territory to find vulnerabilities in applications for the good or bad.</description>
+    </item>
     
     <item>
       <title>Learning Sprint: June 22-June-28</title>
@@ -20,15 +29,6 @@
       <description>June 22-June-28 Learning The name of the game this week is finish the tasks. I&amp;rsquo;ll be busy, but I have a new philosophy in place I plan to apply to boost my productivity and actually accomplish these topics. We&amp;rsquo;ll see what comes this week but I do intend to finish everything on the list. Here is what I&amp;rsquo;ll be up to.
 My intended focuses:
  Start Unreal Engine Learning Windows Exploit Development Course Review Post  Repeating Activities include:</description>
-    </item>
-    
-    <item>
-      <title>Windows Exploit Development: Vanilla Buffer Overflow</title>
-      <link>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</link>
-      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</guid>
-      <description>Prologue Exploit Development is an art that only a select few venture to explore. So many of us run the script and watch it fail only to sit back and think well that didn&amp;rsquo;t work. Oh well. It takes enormous amounts of time, knowledge, and Googling while testing, failing, and failing a thousand more times until finally something happens. It&amp;rsquo;s these individuals that frighten the world; that have the motivation to press onward into nearly always unfamiliar territory to find vulnerabilities in applications for the good or bad.</description>
     </item>
     
     <item>
