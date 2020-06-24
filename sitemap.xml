@@ -4,42 +4,12 @@
   
   <url>
     <loc>https://novabutter.github.io/blog/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://novabutter.github.io/categories/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://novabutter.github.io/tags/course/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://novabutter.github.io/tags/exploit-development/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://novabutter.github.io/categories/exploit-development/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://novabutter.github.io/tags/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://novabutter.github.io/tags/windows-7/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://novabutter.github.io/blog/2020-6-22-windows-exploit-development-vanilla-buffer-overflow/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,6 +29,11 @@
   
   <url>
     <loc>https://novabutter.github.io/tags/personal/</loc>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://novabutter.github.io/tags/</loc>
     <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
   
