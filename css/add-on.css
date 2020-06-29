@@ -29,11 +29,9 @@ body * [style*="background-image"] {
 /*
     Temporary Added Changes that are a band-aid fix to the sizing issue for mobile iPhones. If you scroll right on the phone, the issue is still present just hidden.
 */
-/*
 #site-intro {
     max-width:100vw;
 }
-*/
 .post {
     max-width:100vw;
 }
