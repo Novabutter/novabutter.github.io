@@ -4,7 +4,6 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   and follow the formatting and style given.
 */
-/*
 html {
     background-color: #171717 !important;
 }
@@ -24,7 +23,6 @@ body * [style*="background-image"] {
     filter: hue-rotate(180deg) contrast(100%) invert(100%);
     -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%);
 }
-*/
 
 /*
     Temporary Added Changes that are a band-aid fix to the sizing issue for mobile iPhones. If you scroll right on the phone, the issue is still present just hidden.
