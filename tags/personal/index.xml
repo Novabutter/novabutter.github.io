@@ -6,10 +6,28 @@
     <description>Recent content in Personal on Giovanni Licameli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://novabutter.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Sprint: June 29-July 5</title>
+      <link>https://novabutter.github.io/blog/2020-6-29-learning-sprint-june-29-july-5/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-6-29-learning-sprint-june-29-july-5/</guid>
+      <description>June 29-July 5 Learning Last week was a massive failure. While I was busy with things I found worthwhile, I did not follow the tasks at hand. If you take a look at the previous week it appears I finished nothing but behind the scenes I had a lot going on that I still cannot yet mention. What I can mention is this: I had a ton of fun with the and it was a great review since I had taken the course.</description>
+    </item>
+    
+    <item>
+      <title>Sprint Review: June 22 - June 28</title>
+      <link>https://novabutter.github.io/blog/2020-6-28-learning-sprint-review/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-6-28-learning-sprint-review/</guid>
+      <description>June 22 - June 28 Learning Review I truly feel like a child sometimes shooting blindly at cool things I observe or look at. Then I get sidetracked but feel like I am probably doing a task worthwhile when I am in reality completely missing the target. When will I learn? Plenty of time for opportunity all squandered by who knows what? Definitely could have done more this week even though I had little distractions.</description>
+    </item>
     
     <item>
       <title>Learning Sprint: June 22-June-28</title>
@@ -251,24 +269,6 @@ Most of the items I had planned simply never happened and it wasn&amp;rsquo;t du
       <guid>https://novabutter.github.io/blog/2020-1-28-sprint-review-and-blog-move/</guid>
       <description>Moving Blog For about 4 months now I&amp;rsquo;ve been hosting my blog on wordpress to show my updates. That was absolutely fine. Tools were easy, posts had no issue. But I&amp;rsquo;ve found that increasingly individuals in the Cybersecurity world have been posting their guides and successes to github rather than to an external blog. So that&amp;rsquo;s what I&amp;rsquo;ll be doing; moving to github.
 Over the next week or so I&amp;rsquo;ll be moving posts from wordpress to github, so there will be slightly more activity than usual.</description>
-    </item>
-    
-    <item>
-      <title>Learning Sprint: June 29-July 5</title>
-      <link>https://novabutter.github.io/blog/2020-6-29-learning-sprint-june-29-july-5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/blog/2020-6-29-learning-sprint-june-29-july-5/</guid>
-      <description>June 29-July 5 Learning Last week was a massive failure. While I was busy with things I found worthwhile, I did not follow the tasks at hand. If you take a look at the previous week it appears I finished nothing but behind the scenes I had a lot going on that I still cannot yet mention. What I can mention is this: I had a ton of fun with the and it was a great review since I had taken the course.</description>
-    </item>
-    
-    <item>
-      <title>Sprint Review: June 22 - June 28</title>
-      <link>https://novabutter.github.io/blog/2020-6-28-learning-sprint-review/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/blog/2020-6-28-learning-sprint-review/</guid>
-      <description>June 22 - June 28 Learning Review I truly feel like a child sometimes shooting blindly at cool things I observe or look at. Then I get sidetracked but feel like I am probably doing a task worthwhile when I am in reality completely missing the target. When will I learn? Plenty of time for opportunity all squandered by who knows what? Definitely could have done more this week even though I had little distractions.</description>
     </item>
     
   </channel>

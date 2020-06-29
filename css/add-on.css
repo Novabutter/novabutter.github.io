@@ -6,6 +6,7 @@
 */
 html {
     background-color: #171717 !important;
+    max-width:100vw;
 }
 
 html {
@@ -22,4 +23,20 @@ video,
 body * [style*="background-image"] {
     filter: hue-rotate(180deg) contrast(100%) invert(100%);
     -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%);
+}
+
+/*
+    Temporary Added Changes that are a band-aid fix to the sizing issue for mobile iPhones. If you scroll right on the phone, the issue is still present just hidden.
+*/
+#site-intro {
+    max-width:100vw;
+}
+.post {
+    max-width:100vw;
+}
+#site-nav {
+    max-width:100vw;
+}
+#site-header {
+    max-width:100vw;
 }
