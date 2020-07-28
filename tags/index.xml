@@ -6,15 +6,42 @@
     <description>Recent content in Tags on Giovanni Licameli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://novabutter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Employed</title>
+      <link>https://novabutter.github.io/tags/employed/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/employed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Near Future</title>
+      <link>https://novabutter.github.io/tags/near-future/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/near-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plans</title>
+      <link>https://novabutter.github.io/tags/plans/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/tags/plans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Learning Sprint</title>
       <link>https://novabutter.github.io/tags/learning-sprint/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://novabutter.github.io/tags/learning-sprint/</guid>
       <description></description>
@@ -23,7 +50,7 @@
     <item>
       <title>Personal</title>
       <link>https://novabutter.github.io/tags/personal/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://novabutter.github.io/tags/personal/</guid>
       <description></description>
@@ -32,7 +59,7 @@
     <item>
       <title>Update</title>
       <link>https://novabutter.github.io/tags/update/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://novabutter.github.io/tags/update/</guid>
       <description></description>
@@ -80,24 +107,6 @@
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://novabutter.github.io/tags/graduate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Near Future</title>
-      <link>https://novabutter.github.io/tags/near-future/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/tags/near-future/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plans</title>
-      <link>https://novabutter.github.io/tags/plans/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://novabutter.github.io/tags/plans/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,30 @@
     <description>Recent content in Blog on Giovanni Licameli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://novabutter.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hacking the Jobscape....I&#39;m in.</title>
+      <link>https://novabutter.github.io/blog/2020-7-28-learning-timeline-update/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-7-28-learning-timeline-update/</guid>
+      <description>Professional Career Space (I got a job) After many months of searching, applying, and interviews I got a professional offer from MasterCard and I accepted it. Currently I am a Linux Systems Engineer which is less security than I had preferred but no doubt is an excellent and relevant start to my next chapter in life. I get to be in a terminal where I am most comfortable, there still is security involved, and I get to talk to individuals who can only further advance my knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Learning Sprint: July 27-August 9</title>
+      <link>https://novabutter.github.io/blog/2020-7-27-learning-sprint-july-27-august-9/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://novabutter.github.io/blog/2020-7-27-learning-sprint-july-27-august-9/</guid>
+      <description>June 29-July 5 Learning It has been so long since my last sprint review and sprint-related work that I won&amp;rsquo;t even bother commenting on how I did. Since then, I have refactored my learning plans and will soon reveal why. So why don&amp;rsquo;t we keep this one short and jump straight to my focuses for the next 2 weeks.
+My intended focuses:
+ Start Unreal Engine Learning Read and complete PFsense Book/Course  Repeating Activities include:</description>
+    </item>
     
     <item>
       <title>Learning Sprint: June 29-July 5</title>
